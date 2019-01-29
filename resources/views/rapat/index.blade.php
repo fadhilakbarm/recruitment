@@ -41,9 +41,9 @@
                                 @else
                                     Batal
                                 @endif
-                            </td>
+                            </td>                            
                             <td>
-                                <a  href="{{ url('https://rapat.pdam-sby.go.id/test/undangan', $res->recid_undangan) }}" target="__blank"><button class="btn btn-primary">Lihat</button></a>
+                                <a href='https://rapat.pdam-sby.go.id/test/undangan/{!! $res->recid_undangan !!}' target="__blank"><button class="btn btn-primary">Lihat</button></a>
                             </td>
                         </tr>
                     @endforeach
